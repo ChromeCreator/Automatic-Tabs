@@ -1,16 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "GeoFS Auto Open Scripts",
+  "name": "example website open scripts",
   "version": "1.0",
-  "description": "Automatically opens your Google Docs scripts when you open GeoFS.",
+  "description": "automatically opens example website when you open example website.",
   "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "GeoFS Scripts Helper"
+    "default_title": "example website Scripts Helper"
   },
   "host_permissions": [
-    "*://*.geo-fs.com/*"
+    "*://*.www.examplewebsite.com/*"
   ]
 }
