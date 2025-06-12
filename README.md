@@ -3,4 +3,4 @@ This extension or whatever you call it will cause your browser to open a tab of 
 Then, replace the second URL with the site you want to be opened when the trigger site is opened.
 Then, open "manifest.json" in Notepad, change "example website open scripts" with whatever title you want.
 Then, replace the description with a description of your choice.
-
+Do the same with default_title.
