@@ -28,4 +28,3 @@ This Chrome extension automatically opens a tab of your choice (e.g., youtube.co
 ---
 
 Enjoy your automatic tabs setup!  
-Created by a 10-year-old coding wizard 🚀
