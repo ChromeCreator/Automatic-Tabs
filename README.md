@@ -1,6 +1,6 @@
 # Automatic-Tabs
 
-This Chrome extension automatically opens a tab of your choice (e.g., youtube.com) whenever you open a specific trigger tab.
+This browser extension automatically opens a tab of your choice (e.g., youtube.com) whenever you open a specific trigger tab.
 
 ---
 
@@ -14,17 +14,39 @@ This Chrome extension automatically opens a tab of your choice (e.g., youtube.co
 6. Update `"name"` to change the extension title.  
 7. Update `"description"` to add your own description.  
 8. Update `"default_title"` with your preferred title.  
-9. Update `"host_permissions"` to include the trigger website URL.  
+9. Update `"host_permissions"` to include the trigger website URL.
 
 ---
 
-## How to Activate (Chrome Instructions)
+## How to Activate the Extension
 
-1. Go to `chrome://extensions/` in your Chrome browser.  
+### Google Chrome
+
+1. Open `chrome://extensions/` in your browser.  
 2. Enable **Developer mode** (toggle in the top right corner).  
-3. Click **Load unpacked** and select the folder containing `background.js` and `manifest.json`.  
-4. Open the trigger website, and watch the chosen site open automatically alongside it!
+3. Click **Load unpacked** and select the folder containing your extension files.  
+4. Open the trigger website — the chosen site will open automatically alongside it!
 
 ---
 
-Enjoy your automatic tabs setup!  
+### Microsoft Edge
+
+1. Open `edge://extensions/` in your browser.  
+2. Enable **Developer mode** (toggle in the bottom left corner).  
+3. Click **Load unpacked** and select your extension folder.  
+4. Open the trigger website to see the second site open automatically!
+
+---
+
+### Mozilla Firefox
+
+1. Open `about:debugging#/runtime/this-firefox` in your browser.  
+2. Click **Load Temporary Add-on**.  
+3. Select the `manifest.json` file from your extension folder.  
+4. Open the trigger website and watch the automatic tab open.
+
+> **Note:** Firefox temporary extensions will disable after restarting the browser. To install permanently, you need to submit the extension to [addons.mozilla.org](https://addons.mozilla.org/).
+
+---
+
+Enjoy your automatic tab launcher!  
